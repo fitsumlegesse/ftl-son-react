@@ -1,0 +1,59 @@
+/* styles.css */
+.song-container {
+    margin: 20px;
+  }
+  
+  .fetch-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .song-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add margin-top to move the table to the top */
+  }
+  
+  .song-table th,
+  .song-table td {
+    border: 1px solid #ddd;
+    padding: 16px; /* Increase padding for better spacing */
+    text-align: left;
+    width: 200px; /* Set column width */
+  }
+  
+  .song-table th {
+    background-color: #f2f2f2;
+    font-size: 18px; /* Increase font size for headers */
+  }
+  
+  .link {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .mark-button {
+    padding: 8px 16px; /* Adjust button padding */
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .mark-button:hover {
+    background-color: #218c54;
+  }
+  
+  .status {
+    padding: 8px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 3px;
+  }
+  
